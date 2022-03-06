@@ -1,7 +1,7 @@
 var maleName=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleName=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 function birthDate(){
-    var dayWeek=document.getElementById("dayWeek").value;
+    var dayWeek=document.getElementById("day").value;
      var dd=parseInt(dayWeek);
     var month=document.getElementById("month").value;
       var mm=parseInt(month);
