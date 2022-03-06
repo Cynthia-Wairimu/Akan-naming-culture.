@@ -1,5 +1,5 @@
-var maleName=['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame']
-var femaleName=['Akosua','Adwoa', 'Abenaa','Akua','Yaa','Afua','Ama']
+var maleName=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+var femaleName=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 function birthDate(){
     var dayWeek=document.getElementById("dayWeek").value;
      var dd=parseInt(dayWeek);
@@ -23,7 +23,7 @@ function birthDate(){
     if(gender==="male"){
         alert('Your Akan name is '+ maleName[day]);
     }
-    else if( gender==='female'){
+    else if( gender==="female"){
         alert('Your Akan name is '+ femaleName[day]);
     }
 } 
