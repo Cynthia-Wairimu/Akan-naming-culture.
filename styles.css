@@ -1,2 +1,19 @@
+* {
+    font-weight: 300;
+}
 
+.content {
+    margin-top: 70px;
+}
+
+.heading{
+    font-weight: 500;
+}
+
+.user-form{
+    background-color: #F8F4F9;
+    border-radius: 14px;
+    Width:500px; 
+    height:500px
+} 
 
