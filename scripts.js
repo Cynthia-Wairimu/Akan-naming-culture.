@@ -10,6 +10,7 @@ function birthDate(){
       var cc=parseInt(year.substr(0,2));
     var day=parseInt(((cc/4) -2*cc-1) + ((5*yy/4) ) + ((26*(mm+1)/10))+ dd)%7;
     var gender=document.getElementById("gender").value
+    
     //Validating the form
     if (dd<=0||dd>31||dd ==""){
         alert('Enter a valid date');
