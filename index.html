@@ -1,45 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Birthday</title>
-       <link rel="stylesheet" href="styles.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Akan-naming</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
   </head>
   <body>
-    <div class="wrap">
-      <div class="display">
-        <h2>Akan Names.</h2>
-        <p>
-          Did you know, frequently in Ghana, children are given their first name
-          as a 'day name' which corresponds to the day in the week they were
-          born. Fill out this form to discover your Akan name!
-        </p>
-      </div>
-      
-      <div class="container">
-        <h3>Enter your birthday</h3>
-
-        <label>Day</label> <br />
-        <input type="text" id="day" placeholder="day" /><br />
-       
-        <label>Month</label> <br />
-        <input type="text" id="month" placeholder="month" /><br />
-        
-        <label>Year</label> <br />
-        <input type="text" id="year" placeholder="year" /><br />
-        
-        <br />
-        <select name="" id="gender">
-          <option value="male">male</option>
-          <option value="female">female</option>
-        </select>
-        <br />
-        <br />
-        <button type="button" onclick="birthDate()">Find out!</button>
-      </div>
+    <div class="display">
+      <h2>Akan Names.</h2>
+      <p>
+        Did you know, frequently in Ghana, children are given their first name
+        as a 'day name' which corresponds to the day in the week they were born.
+        Fill out this form to discover your Akan name!
+      </p>
     </div>
 
-   
+    <form>
+      <div class="wrap">
+        <div class="container">
+          <h3>Enter your birthday</h3>
+
+          <label>Day</label> <br />
+          <input type="text" id="day" placeholder="day" /><br />
+
+          <label>Month</label> <br />
+          <input type="text" id="month" placeholder="month" /><br />
+
+          <label>Year</label> <br />
+          <input type="text" id="year" placeholder="year" /><br />
+
+          <br />
+          <select name="" id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+          </select>
+          <br />
+          <br />
+          <button type="submit"onclick="birthDate()">Find out!</button>
+        </div>
+      </div>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="scripts.js"></script>
-    
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
