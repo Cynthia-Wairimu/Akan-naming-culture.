@@ -19,7 +19,7 @@
 {if you have any concerns or questions, please feel free to contact me or make a contribution to the code. my email is wairimucee@gmail.com. }
 
 ## Link to GitHub pages
-
+https://cynthia-wairimu.github.io/Akan-naming-culture./ 
 
 ### License
 *{MIT licensing.}*
