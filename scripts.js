@@ -2,8 +2,8 @@ var maleName=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleName=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 
 function birthDate(){
-    var dayWeek=document.getElementById("day").value;
-     var dd=parseInt(dayWeek);
+    var day=document.getElementById("day").value;
+     var dd=parseInt(day);
 
     var month=document.getElementById("month").value;
       var mm=parseInt(month);
@@ -17,6 +17,7 @@ function birthDate(){
     var gender=document.getElementById("gender").value
 
     //Validating the form
+    
     if (dd<=0||dd>31||dd ==""){
         alert('Enter a valid date');
     }
