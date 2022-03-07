@@ -1,19 +1,19 @@
 * {
     font-weight: 300;
+    
 }
 
 .content {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .heading{
-    font-weight: 500;
+        font-weight: 800;
 }
 
 .user-form{
-    background-color: #F8F4F9;
+    background-color: rgb(248, 199, 204);
     border-radius: 14px;
     Width:500px; 
     height:500px
-} 
-
+}

@@ -8,7 +8,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <title>Akan-naming</title>
+    <title>Akan Names</title>
     <link rel="stylesheet" href="styles.css" />
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -29,59 +29,80 @@
               were born.
             </p>
 
+            <p>Fill out the form to discover your Akan name!</p>
+
             <div class="row">
               <div class="col-6">
                 <h5>Female Names</h5>
-                <p>Sunday: Akosua</p>
-                <p>Monday: Adwoa</p>
-                <p>Tuesday: Abenaa</p>
-                <p>Wednesday: Akua</p>
-                <p>Thursday: Yaa</p>
-                <p>Friday: Afua</p>
-                <p>Saturday: Ama</p>
+                <p>Sunday: <em>emAkosua</em></p>
+                <p>Monday: <em>Adwoa</em></p>
+                <p>Tuesday: <em>Abenaa</em></p>
+                <p>Wednesday: <em>Akua</em></p>
+                <p>Thursday: <em>Yaa</em></p>
+                <p>Friday: <em>Afua</em></p>
+                <p>Saturday:<em>Ama</em></p>
               </div>
               <div class="col-6">
                 <h5>Male Names</h5>
-                <p>Sunday: Kwasi</p>
-                <p>Monday: Kwadwo</p>
-                <p>Tuesday: Kwabena</p>
-                <p>Wednesday: Kwaku</p>
-                <p>Thursday: Yaw</p>
-                <p>Friday: Kofi</p>
-                <p>Saturday: Kwame</p>
+                <p>Sunday: <em>Kwasi</em></p>
+                <p>Monday: <em>Kwadwo</em></p>
+                <p>Tuesday: <em>Kwabena</em></p>
+                <p>Wednesday: <em>Kwaku</em></p>
+                <p>Thursday: <em>Yaw</em></p>
+                <p>Friday: <em>Kofi</em></p>
+                <p>Saturday: <em>Kwame</em></p>
               </div>
             </div>
-
-            <p>Fill out the form to discover your Akan name!</p>
-
           </div>
         </div>
         <div class="col-6">
           <div class="user-form">
             <form>
               <div class="wrap container">
-                  <h3>Enter your birthday</h3>
+                <h4>Enter your birthday</h4>
 
-                  <label>Day</label> <br />
-                  <input type="text" id="day" class="form-control user-input" placeholder="DD" /><br />
+                <label>Day</label> <br />
+                <input
+                  type="text"
+                  id="day"
+                  class="form-control user-input"
+                  placeholder="DD"
+                /><br />
 
-                  <label>Month</label> <br />
-                  <input type="text" id="month" class="form-control user-input" placeholder="MM" /><br />
+                <label>Month</label> <br />
+                <input
+                  type="text"
+                  id="month"
+                  class="form-control user-input"
+                  placeholder="MM"
+                /><br />
 
-                  <label>Year</label> <br />
-                  <input type="text" id="year" class="form-control user-input" placeholder="YYYY" /><br />
+                <label>Year</label> <br />
+                <input
+                  type="text"
+                  id="year"
+                  class="form-control user-input"
+                  placeholder="YYYY"
+                /><br />
 
-                  <br />
-                  <select name="" class="form-control user-input" id="gender">
-                    <option value="female">Female</option>
-                    <option value="male">Male</option>
-                  </select>
-                  <br />
-                  <br />
-                  <button type="submit" class="btn btn-primary" onclick="birthDate()">Find out!</button>
-                </div>
+                <label>Gender</label> <br />
+                <select name="" class="form-control user-input" id="gender">
+                  <option value="female">Female</option>
+                  <option value="male">Male</option>
+                </select>
+                <br />
+                <br />
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  onclick="birthDate()"
+                >
+                  Find out!
+                </button>
+              </div>
             </form>
           </div>
+        </div>
       </div>
     </div>
     <!-- Optional JavaScript -->
