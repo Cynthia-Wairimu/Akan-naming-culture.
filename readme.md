@@ -15,9 +15,9 @@ This is a web application that takes a user's birthday and calculates the day of
 * Add a LICENSE file (MIT)
 * Commit changes at every step.
 ## Techonoligies used
-. HTML
-. CSS
-. JavaScript
+* HTML
+* CSS
+* JavaScript
 ## Support and contact details
 if you have any concerns or questions, please feel free to contact me or make a contribution to the code. my email is wairimucee@gmail.com. 
 
