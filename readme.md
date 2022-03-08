@@ -1,5 +1,5 @@
 ## Akan-naming culture web application.
-This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.  {7/03/2020}
+This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.  {8/03/2020}
 #### By **Cynthia Wairimu**
 ## Description
 This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. It includes a form, where users fill in their birthdate, and a small description of what the web-app does.
@@ -15,9 +15,9 @@ This is a web application that takes a user's birthday and calculates the day of
 * Add a LICENSE file (MIT)
 * Commit changes at every step.
 ## Techonoligies used
-1.HTML
-2.CSS
-3.JavaScript
+. HTML
+. CSS
+. JavaScript
 ## Support and contact details
 if you have any concerns or questions, please feel free to contact me or make a contribution to the code. my email is wairimucee@gmail.com. 
 
