@@ -1,19 +1,32 @@
 * {
-    font-weight: 300;
-    
+  font-weight: 300;
+  
 }
 
 .content {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .heading{
-        font-weight: 800;
+  font-weight: 800;
 }
 
 .user-form{
-    background-color: rgb(248, 199, 204);
-    border-radius: 14px;
-    Width:500px; 
-    height:500px
+  background-color: rgb(248, 199, 204);
+  border-radius: 14px;
+  Width:500px; 
+  height:500px
+}
+
+footer {
+  text-align: center;
+  Width:1100px;
+  padding: 2px;
+  border-radius: 14px;
+  background-color: rgb(248, 199, 204);
+  color: black;
+}
+.darkmode {
+  background-color: black;
+  color: white;
 }
